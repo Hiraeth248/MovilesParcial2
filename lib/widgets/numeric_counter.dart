@@ -28,8 +28,9 @@ class _NumericCounterState extends State<NumericCounter> {
 
   String _message() {
     if (_resin >= 160) return '¡Resina al máximo! No la desperdicies.';
-    if (_resin >= 40) return 'Suficiente para un dominio o un jefe semanal.';
-    if (_resin >= 20) return 'Alcanza para una Resina concentrada.';
+    if(_resin >= 60) return '¡Ahora podemos concentrar nuestra resina!';
+    if (_resin >= 40) return 'Suficiente para un jefe de mundo.';
+    if (_resin >= 20) return 'Alcanza para un dominio o línea ley.';
     return 'Paimon dice: ¡Hay que esperar a que se recargue!';
   }
 
